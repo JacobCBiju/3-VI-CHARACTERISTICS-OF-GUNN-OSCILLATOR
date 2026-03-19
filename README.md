@@ -53,7 +53,9 @@ In a Gunn Oscillator, the Gunn diode is placed in a resonant cavity. In this cas
 
 *Note: After tuning the Gunn source, the procedure for VSWR & Impedance measurement depthof PIN modulator.*
 
-**B.Observation:** 
+**B.Observation:**
+
+
 <img width="561" height="584" alt="image" src="https://github.com/user-attachments/assets/b677fa57-5ed2-4051-b9b5-6d47830ccc1e" />
 
 Depth of modulation of PIN diode (sample readings & calc.)
@@ -69,20 +71,27 @@ Bottom of square wave: micrometer = 7.0 mm → VSWR meter = -30 dB
 Difference ΔdB = 6 dB.
 
 Convert ΔdB to amplitude ratio:
+
+
 <img width="813" height="188" alt="image" src="https://github.com/user-attachments/assets/51c83acf-f750-42b2-b205-53c67b4e4c4f" />
+
 Depth of modulation ≈ 50%
 
 **C.Analysis of Results:**
+
 1.The I–V curve shows a rise in current up to a peak (~3 V, 28 mA), then a fall to a valley (~7 V, 12 mA) and a subsequent rise — this is the classic negative differential resistance (NDR) region of a Gunn diode. 2.The device should be biased in the mid-NDR region (between peak and valley) for stable microwave oscillation. 3.From PIN modulator measurements, a Δ of 6 dB between high/low detector readings gives an amplitude ratio ≈ 2, corresponding to ~50% modulation depth, indicating effective amplitude modulation by the PIN modulator.
 
 **D.Conclusions:**
+
 The Gunn diode exhibits clear negative differential resistance with a peak around 3 V and a valley around 7 V, confirming conditions required for Gunn oscillation. The PIN diode modulator achieved a modulation depth of ≈ 50%, showing good amplitude modulation of the microwave carrier.
 
 
 **Precautions:**
+
 •	Check the connections before switching on the kit.
 •	Connections should be done properly.
 •	Observation should be taken properly.
 
 **Result:**
+
 The I–V characteristics of the Gunn diode were successfully plotted, showing a clear negative resistance region. The modulation depth of the PIN diode was determined from VSWR readings, confirming effective amplitude modulation
